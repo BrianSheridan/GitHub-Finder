@@ -21,7 +21,7 @@ $(document).ready(function(){
          }).done(function(repos){
             $.each(repos, function(index, repo){
                $('#repos').append(`
-                <div class="well">
+                <div class="card card-body bg-light">
                   <div class="row">
                     <div class="col-md-7">
                       <strong>${repo.name}</strong>: ${repo.description}
