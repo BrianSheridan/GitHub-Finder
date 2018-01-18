@@ -27,6 +27,12 @@ $(document).ready(function(){
                 <span class="badge badge-success">Followers: ${user.followers}</span>
                 <span class="badge badge-info">Following: ${user.following}</span>
                 <br><br>
+                <ul class="list-group">
+                 <li class="list-group-item">Comapny: ${user.company}</li>
+                 <li class="list-group-item">Website/blog: ${user.blog}</li>
+                 <li class="list-group-item">location: ${user.location}</li>
+                 <li class="list-group-item">Member Since: ${user.created_at}</li>
+                </ul>
                 </div>
               </div>
              </div>
