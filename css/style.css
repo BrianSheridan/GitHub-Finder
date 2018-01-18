@@ -1,3 +1,13 @@
 .avatar{
     width: 100%;
 }
+
+.navbar{
+    color: black;
+    background-color: red;
+}
+
+a{
+    color: white;
+    
+}
